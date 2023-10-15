@@ -1,0 +1,25 @@
+.card{
+
+    margin-top: 100px;
+    margin-left: -180px;
+    width: 1200px;
+    height: fit-content;
+
+}
+
+.head{
+  text-align: center;
+  
+}
+
+.bgimg
+{
+ 
+  background-image: url("../timg/expimg2.png");
+  background-size:contain; 
+  overscroll-behavior: auto;
+  
+  
+  
+  
+}
