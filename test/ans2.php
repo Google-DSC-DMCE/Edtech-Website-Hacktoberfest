@@ -147,11 +147,11 @@ if(isset($_POST['save_radio']))
     if($query_run)
     {
         $_SESSION['status'] = "Inserted Successfully";
-        header("Location: result2.php");
+        header("Location: result3.php");
     }
     else{
         $_SESSION['status'] = "Inserted Successfully";
-        header("Location: result2.php");
+        header("Location: result3.php");
     }
 }
 ?>
