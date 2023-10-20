@@ -8,12 +8,12 @@
 
 <div class="card">
 <img src="timg/result.jpg"  style="width:100%">
-<h1>Download Your Result</h1>
+<h1>Download Your Result<br>Chapter 3</h1>
 
    <form action="pdf_3.php">
       <p><button>Download</button></p>
    </form>
-   <form action="\admin\Notes php project\index.php">
+   <form action="/admin/Notes php project/index.php">
         <button id="cbtn" type="submit" class="btn btn-primary" style="background-color: black;" > Go Back To Dashboard </button>
   </form>
 </div>

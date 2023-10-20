@@ -8,7 +8,7 @@
 
 <div class="card">
 <img src="timg/result.jpg"  style="width:100%">
-<h1>Download Your Result</h1>
+<h1>Download Your Result<br>Chapter 2</h1>
 
    <form action="pdf_2.php">
       <p><button>Download</button></p>
