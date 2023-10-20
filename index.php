@@ -10,8 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<body style="overflow-y: scroll;">
-  <div class="bgimg" style="height: 810px">
+<body style="overflow-y: scroll; position: relative;">
+  <div class="bgimg"></div>
   <header>
        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -29,7 +29,6 @@
         </div>
         </nav>
   </header>      
-</div>
   
     <footer class="foot">
         <div class="contactus">
