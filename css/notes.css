@@ -1,200 +1,209 @@
-.body {
-    background-color: rgb(240, 236, 236);
-    
-    }
-    
-    
-    
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 15%;
-        border-radius: 5px;
-        float: center;
-      }
-      
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      img {
-        border-radius: 5px 5px 0 0;
-      }
-      
-      .container {
-        
-        padding: 2px 8px;
-        height: 200px;
-        width: 200px;
-      }
-      
-      .container p {
-        
-        margin-top: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      }
-      
-      #cbtn{
-        margin-top: 55px;
-        float: right;
-
-      }
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(240, 236, 236);
+}
 
 
-      #p1{
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  float: center;
+}
 
-        margin-top: 25px;
-        
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
-      }
-    
-    /* card2 */
-    
-    .card2 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 15%;
-        border-radius: 5px;
-        -ms-flex-item-align: center;
-       }
-      
-      .card2:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      img {
-        border-radius: 5px 5px 0 0;
-      }
-      
-      .container {
-        padding: 2px 8px;
-      }
-    
-    
-    
-    
-    /* card3 */
-    
-    .card3 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 15%;
-        border-radius: 5px;
-        float: center;
-      }
-      
-      .card3:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      img {
-        border-radius: 5px 5px 0 0;
-      }
-      
-      .container {
-        padding: 2px 8px;
-      }
-    
-    /* card4 */
-    
-    .card4 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 15%;
-        border-radius: 5px;
-        float: center;
-      }
-      
-      .card4:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      img {
-        border-radius: 5px 5px 0 0;
-      }
-      
-      .container {
-        padding: 2px 8px;
-      }
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+
+  padding: 2px 8px;
+  height: 200px;
+  width: 200px;
+}
+
+.container p {
+
+  margin-top: 10px;
+
+}
+
+#cbtn {
+  margin-top: 55px;
+  float: right;
+
+}
 
 
-      #cbtn4 {
-        margin-top: 75px;
-        float: right;
+#p1 {
 
-      }
-    
-    /* card5 */
-    
-    
-    .card5 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 15%;
-        border-radius: 5px;
-        float: center;
-      }
-      
-      .card5:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      img {
-        border-radius: 5px 5px 0 0;
-      }
-      
-      .container {
-        padding: 2px 8px;
-      }
+  margin-top: 25px;
 
-      #cbtn5 {
-        margin-top: 75px;
-        float: right;
 
-      }
-    
-    
-    
-    
-    
-      
-    .headline {
-      font-style: arial;
-      float: center;
-      text-shadow: 2px,2px,4px;
-    }
-    
-    
-    .allcard {
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-flow: wrap;
-        grid-row-start: auto; 
-        margin-right: 15;
-        margin-top: 50px;
-        margin-bottom: 250px;
-    
-    }
-    
-    
-    .foot {
-      margin-top: 290px; 
-      margin-bottom: -120px;
-      background-color: black;
-      color:white;
-      text-align: justify;
-      
-    }
-    
-    .aboutus {
-      margin-left: 15px;
-      font-style: arial;
-    }
-    
-    .contactus {
-      text-align: left;
-      margin-right: 15px;
-      font-style: arial;
-    }
+}
+
+/* card2 */
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  -ms-flex-item-align: center;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 8px;
+}
+
+
+
+
+/* card3 */
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  float: center;
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 8px;
+}
+
+/* card4 */
+
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  float: center;
+}
+
+.card4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 8px;
+}
+
+
+#cbtn4 {
+  margin-top: 75px;
+  float: right;
+
+}
+
+/* card5 */
+
+
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  float: center;
+}
+
+.card5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 8px;
+}
+
+#cbtn5 {
+  margin-top: 75px;
+  float: right;
+
+}
+
+
+
+
+
+
+.headline {
+  font-style: arial;
+  float: center;
+  text-shadow: 2px, 2px, 4px;
+}
+
+
+.allcard {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  grid-row-start: auto;
+  margin-right: 15;
+  margin-top: 50px;
+  margin-bottom: 250px;
+
+}
+
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: justify;
+
+}
+
+.aboutus {
+  margin-left: 15px;
+  font-style: arial;
+}
+
+.contactus {
+  text-align: left;
+  margin-right: 15px;
+  font-style: arial;
+}
